@@ -19,19 +19,19 @@
          (s/coll-of ::state-fn)))
 
 (defn pre-handler
-  [kw f]
-  {:pre-fn #(update % kw f)
+  [f]
+  {:pre-fn f
    :post-fn identity})
 
 (defn post-handler
-  [kw f]
+  [f]
   {:pre-fn identity
-   :post-fn #(update % kw f)})
+   :post-fn f})
 
 (defn around-handler
-  [kw {:keys [pre post]}]
-  {:pre-fn #(update % kw pre)
-   :post-fn #(update % kw post)})
+  [{:keys [pre post]}]
+  {:pre-fn pre
+   :post-fn post})
 
 (defn handle
   [handler-seq initial-state]

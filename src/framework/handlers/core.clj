@@ -1,4 +1,4 @@
-(ns framework.handler
+(ns framework.handlers.core
   (:require
    [clojure.spec.alpha :as s]))
 

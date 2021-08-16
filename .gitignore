@@ -7,3 +7,16 @@
 /target/
 /.nrepl-port
 /src/framework/#%2Acider-scratch%2A#s9W8un#
+/src/framework/#%2AHTTP%20Response%2A#DrupYc#
+/src/framework/config.clj~
+/src/framework/config/core.clj~
+/src/framework/config/routes.clj~
+/src/framework/config/server.clj~
+/src/framework/handlers/core.clj~
+/src/framework/handlers/routes.clj~
+/src/framework/handlers/server.clj~
+/src/framework/router.clj~
+/src/framework/routes/core.clj~
+/src/framework/routes/math.clj~
+/src/framework/server.clj~
+/src/framework/utils.clj~

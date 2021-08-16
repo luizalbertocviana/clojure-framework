@@ -1,0 +1,9 @@
+:url = http://localhost:3000/api
+
+# correct request
+GET :url/math?x=3&y=4
+#####
+
+# wrong request
+GET :url/math?x=3&y=a
+#####

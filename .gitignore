@@ -2,7 +2,6 @@
 /src/framework/#core.clj#
 /src/framework/core.clj~
 /src/framework/handler.clj~
-/src/framework/requests.http
 /src/framework/requests.http~
 /target/
 /.nrepl-port
